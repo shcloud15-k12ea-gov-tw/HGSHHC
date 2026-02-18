@@ -1,0 +1,22 @@
+@font-face {
+                                     font-family: 'EUDC';
+                                     src: url('//shcloud15.k12ea.gov.tw/HGSHHC/Auth/Content/Fonts/EUDC.ttf?1770738081') format('truetype');
+                                   }
+
+                                    @font-face {
+                                     font-family: 'EUDC2';
+                                     src: url('//shcloud15.k12ea.gov.tw/HGSHHC/Auth/Content/Fonts/EUDCOnly.ttf?1770738081') format('truetype');
+                                   }
+
+                                    @font-face {
+                                     font-family: 'C39P24DlTt';
+                                     src: url('//shcloud15.k12ea.gov.tw/HGSHHC/Auth/Content/Fonts/barcode.ttf?1770738081') format('truetype');
+                                   }
+
+                                    body, .eudcFont, .k-grid,.k-toolbar,.k-input,.k-picker,.k-window,.k-reset {
+                                        font-family: EUDC,EUDC2,Microsoft JhengHei,arial,helvetica,clean,sans-serif!important;
+                                    }
+
+                                    #reportViewer .layer > div {
+                                        font-family: 'EUDC','EUDC2','Microsoft JhengHei','arial','helvetica','clean','sans-serif';
+                                    }
